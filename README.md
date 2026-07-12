@@ -18,3 +18,7 @@ As of this writing, I have three modules that I think are worth publishing. I wa
 I have already revised one of them, so I am publishing it now:
 
 * [Deque](libs/Deque): a limited but revertible alternative to `collections.deque`.
+
+## Samples
+
+* [Deque](samples/Deque)
