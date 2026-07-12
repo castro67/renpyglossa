@@ -1,6 +1,6 @@
 # Deque example
 
-This is an example to illustrate the use of the `Deque`, a revertible double-ended queue for Ren'Py. More information about this class can be found [here](../../libs/Deque).
+This is an example to illustrate the use of `Deque`, a revertible double-ended queue for Ren'Py. More information about this class can be found [here](https://github.com/castro67/renpyglossa/tree/main/libs/Deque).
 
 The example is a typical new project created by the Ren'Py Launcher with very few additions. It can be built with Ren'Py just like any other Ren'Py project.
 
