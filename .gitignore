@@ -1,0 +1,9 @@
+Thumbs.db
+.DS_Store
+*.rpyc
+!old-game/*.rpyc
+errors.txt
+log.txt
+traceback.txt
+cache
+saves
