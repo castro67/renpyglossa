@@ -15,7 +15,7 @@ This repository is organized into two directories:
 
 As of this writing, I have three modules that I think are worth publishing. I want to revise them first, because it's been a while since I wrote them and I want to test them with the current Ren'Py version and add some documentation.
 
-I have already revised one of them, so I am publishing it now:
+I have already revised two of them, so I am publishing them now:
 
 * [Deque](libs/Deque): a limited but revertible alternative to `collections.deque`.
 * [revep](libs/revep): a way to load saved games from a previous episode in a game series.
