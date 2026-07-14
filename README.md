@@ -18,9 +18,9 @@ As of this writing, I have three modules that I think are worth publishing. I wa
 I have already revised two of them, so I am publishing them now:
 
 * [Deque](libs/Deque): a limited but revertible alternative to `collections.deque`.
-* [revep](libs/revep): a way to load saved games from a previous episode in a game series.
+* [prevep](libs/prevep): a way to load saved games from a previous episode in a game series.
 
 ## Samples
 
 * [Deque](samples/Deque)
-* [revep](samples/revep)
+* [prevep](samples/prevep)
