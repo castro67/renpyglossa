@@ -4,6 +4,8 @@ This is an example to illustrate the use of `prevep`, a module to load data from
 
 The example is a typical new project created by the Ren'Py Launcher with very few additions. It can be built with Ren'Py just like any other Ren'Py project.
 
+We'll imagine that this example is the second episode of a game series whose first episode is "The Question", one of the sample projects included in the Ren'Py SDK. 
+
 Three files are relevant to this example:
 
 * [prevep.rpy](game/libs/prevep.rpy): the module whose use we want to illustrate.
