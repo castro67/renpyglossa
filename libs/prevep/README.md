@@ -23,6 +23,7 @@ To use **prevep** in your game series you need to do the following:
     
     When your `prevep_init_vars()` function is invoked, the default store of your new game has not been created yet. Your implementation of `prevep_init_vars()` should write `prevdata` somewhere where it can be read from your new game once it starts. The **prevep** module does not define where to write this data. My particular choice is to temporarily use a field in the persistent object, but maybe there is a more adequate place.
 5. You need to define a label called `start_from_prevep`. This label is where the game starts after loading a game from the previous episode. At this point, the default store of your new game has already been created, so you can move the data you saved in your `prevep_init_vars()` function to the default store or do whatever you want with that data.
+6. Copy all custom classes from the previous episode into your new episode, unless you are sure that objects of those classes never get into saved games.
 
 If you want to see a simple example, you can take a look at <https://github.com/castro67/renpyglossa/tree/main/samples/prevep>
 
