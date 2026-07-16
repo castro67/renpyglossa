@@ -13,14 +13,14 @@ This repository is organized into two directories:
 
 ## Modules
 
-As of this writing, I have three modules that I think are worth publishing. I want to revise them first, because it's been a while since I wrote them and I want to test them with the current Ren'Py version and add some documentation.
-
-I have already revised two of them, so I am publishing them now:
+As of this writing, I have three modules that I think are worth publishing::
 
 * [Deque](libs/Deque): a limited but revertible alternative to `collections.deque`.
+* [flexible_menu](libs/flexible_menu): a function to display menus, where choices can be enabled, disabled or hidden regardless of the value of `config.menu_include_disabled`.
 * [prevep](libs/prevep): a way to load saved games from a previous episode in a game series.
 
 ## Samples
 
 * [Deque](samples/Deque)
+* [flexible_menu](samples/flexible_menu)
 * [prevep](samples/prevep)
