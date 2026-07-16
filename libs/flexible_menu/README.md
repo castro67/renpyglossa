@@ -4,6 +4,8 @@
 
 ## Usage
 
+Before calling `flexible_menu()` you need to add the file `flexible_menu.rpy` to your project. The function takes an indeterminate number of arguments:
+
     flexible_menu(choice1, choice2, ...)
 
 where each choice is a dictionary with the following format:
