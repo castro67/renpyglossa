@@ -21,16 +21,13 @@ init python:
         for choice in choices:
             text = __(choice["text"]);
             value = choice["value"];
-            enabled = True
-            if "if" in choice:
-                enabled = choice["if"]
-                if not enabled:
-                    if ("exclude_disabled" in choice and
-                                choice["exclude_disabled"]):
-                        continue
-                    value = None
-                    if "explain" in choice and choice["explain"] != "":
-                        text += " " + __(choice["explain"])
+            if "if" in choice and not choice["if"]:
+                if ("exclude_disabled" in choice and
+                            choice["exclude_disabled"]):
+                    continue
+                value = None
+                if "explain" in choice and choice["explain"] != "":
+                    text += " " + __(choice["explain"])
             items.append((text, value))
         return renpy.display_menu(items)
 
